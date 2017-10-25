@@ -29,3 +29,5 @@ RUN wget http://download.cdn.yandex.net/tomita/tomita-linux64.bz2
 RUN tar xvjf tomita-linux64.bz2
 RUN rm tomita-linux64.bz2
 
+RUN git clone https://github.com/NickVeld/pytomita.git
+RUN pip install pytomita/pytomita
