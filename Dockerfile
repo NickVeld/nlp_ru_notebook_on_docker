@@ -14,6 +14,9 @@ RUN pip install -U nltk
 RUN pip install -U gensim
 RUN pip install -U sklearn
 RUN pip install -U rake-nltk
+RUN pip install -U pandas
+RUN pip install -U matplotlib
+RUN pip install -U wordcloud
 #RUN apt-get install -y bunzip
 
 EXPOSE 8888
